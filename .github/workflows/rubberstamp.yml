@@ -14,7 +14,7 @@ jobs:
   Audit:
     runs-on: "ubuntu-22.04"
     steps:
-    - uses: "actions/checkout@v4"
+    - uses: "actions/checkout@v5"
     - run: "sudo apt-get update"
     - run: "sudo apt-get install -y git"
     - run: "date -u >.rubberstamp"
